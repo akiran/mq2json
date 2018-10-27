@@ -1,0 +1,20 @@
+{
+  "name": "mq2json",
+  "version": "0.1.0",
+  "description": "Parse media query string to json",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test-dev": "jest --watchAll"
+  },
+  "keywords": [
+    "json",
+    "media-query",
+    "parser"
+  ],
+  "author": "Kiran Abburi",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
