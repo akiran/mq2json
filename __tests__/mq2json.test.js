@@ -11,7 +11,10 @@ describe("tests", () => {
   });
 
   it("should parse media features", () => {
-    expect(mq2json("(min-width: 100px) and(max-width: 200px)")).toEqual({
+    expect(mq2json("min-width: 100px")).toEqual({
+      minWidth: "100px"
+    });
+    expect(mq2json("(min-width: 100px) and (max-width: 200px)")).toEqual({
       minWidth: "100px",
       maxWidth: "200px"
     });
